@@ -5,8 +5,8 @@ Gem::Specification.new do |s|
   s.name        = "forms_on_the_fly"
   s.version     = FormsOnTheFly::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = []
-  s.email       = []
+  s.authors     = ["Kevin Farst"]
+  s.email       = ["farst.6@gmail.com"]
   s.homepage    = "http://rubygems.org/gems/forms_on_the_fly"
   s.summary     = "TODO: Write a gem summary"
   s.description = "TODO: Write a gem description"
