@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Kevin Farst"]
   s.email       = ["farst.6@gmail.com"]
   s.homepage    = "http://rubygems.org/gems/forms_on_the_fly"
-  s.summary     = "TODO: Write a gem summary"
-  s.description = "TODO: Write a gem description"
+  s.summary     = "Allows a site admin to create a form for user input on any model dynamically"
+  s.description = "Allows a site admin to create a form for user input on any model dynamically"
 
   s.required_rubygems_version = ">= 0.0.1"
   s.rubyforge_project         = "forms_on_the_fly"
