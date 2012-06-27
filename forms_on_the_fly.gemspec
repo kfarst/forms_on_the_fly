@@ -15,10 +15,10 @@ Gem::Specification.new do |s|
   s.rubyforge_project         = "forms_on_the_fly"
 
   s.add_dependency('rails',        '>= 3.0')
-  s.add_dependency('diesel',       '~>0.1.5')
+  s.add_dependency('diesel',       '~> 0.1.5')
+  s.add_dependency('formtastic',   '~> 2.2')
 
   s.add_development_dependency('rspec')
-  s.add_development_dependency('formtastic')
   s.add_development_dependency('bundler',            '~> 1.1')
   s.add_development_dependency('appraisal',          '~> 0.4.1')
   s.add_development_dependency('cucumber-rails',     '~> 1.1.1')

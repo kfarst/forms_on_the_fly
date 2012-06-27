@@ -3,6 +3,7 @@ PATH
   specs:
     forms_on_the_fly (0.0.1)
       diesel (~> 0.1.5)
+      formtastic (~> 2.2)
       rails (>= 3.0)
 
 GEM
@@ -177,7 +178,6 @@ DEPENDENCIES
   database_cleaner
   factory_girl_rails (~> 3.1.0)
   forms_on_the_fly!
-  formtastic
   jquery-rails (~> 2.0)
   launchy
   rspec
