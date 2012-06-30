@@ -38,7 +38,7 @@ module FormsOnTheFly
 
       def create_forms_table
         if forms_table_exists?
-          super.reject { |name| name.include?("create") } + ["db/migrate/upgrade_clearance_to_diesel.rb"]
+          super.reject { |name| name.include?("create") } + ["db/migrate/create_forms.rb"]
         else
           super
         end
@@ -46,7 +46,7 @@ module FormsOnTheFly
 
       def create_form_fields_table
         if form_fields_table_exists?
-          super.reject { |name| name.include?("create") } + ["db/migrate/upgrade_clearance_to_diesel.rb"]
+          super.reject { |name| name.include?("create") } + ["db/migrate/create_form_fields.rb"]
         else
           super
         end
@@ -54,7 +54,7 @@ module FormsOnTheFly
 
       def create_user_inputs_table
         if user_inputs_table_exists?
-          super.reject { |name| name.include?("create") } + ["db/migrate/upgrade_clearance_to_diesel.rb"]
+          super.reject { |name| name.include?("create") } + ["db/migrate/create_user_inputs.rb"]
         else
           super
         end
