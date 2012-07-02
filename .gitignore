@@ -1,4 +1,10 @@
-pkg/*
-*.gem
+*.DS_Store
+*.swp
+*.swo
+*~
+!.keep
 .bundle
-.rvmrc
+db/*.sqlite3
+log/*.log
+pkg
+tmp/
