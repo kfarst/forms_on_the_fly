@@ -14,11 +14,13 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = ">= 0.0.1"
   s.rubyforge_project         = "forms_on_the_fly"
 
-  s.add_dependency('rails',        '>= 3.0')
-  s.add_dependency('diesel',       '~> 0.1.5')
-  s.add_dependency('formtastic',   '~> 2.2')
+  s.add_dependency('rails',       '>= 3.0')
+  s.add_dependency('diesel',      '~> 0.1.5')
+  s.add_dependency('formtastic',  '~> 2.2')
+  s.add_dependency('haml')
+  s.add_dependency('css3buttons', '~> 1.0.1')
 
-  s.add_development_dependency('rspec')
+  s.add_development_dependency('rspec-rails')
   s.add_development_dependency('bundler',            '~> 1.1')
   s.add_development_dependency('appraisal',          '~> 0.4.1')
   s.add_development_dependency('cucumber-rails',     '~> 1.1.1')
@@ -33,6 +35,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency('launchy')
   s.add_development_dependency('aruba',              '~> 0.4.11')
   s.add_development_dependency('jquery-rails',       '~> 2.0')
+  s.add_development_dependency('shoulda-matchers',   '~> 1.2.0')
 
   s.files        = `git ls-files`.split("\n")
   s.executables  = `git ls-files`.split("\n").map{|f| f =~ /^bin\/(.*)/ ? $1 : nil}.compact
